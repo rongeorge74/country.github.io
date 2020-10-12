@@ -1,0 +1,9 @@
+<label for="country">Select a Country : </label><br>
+<select id="country" name="Country">
+<option value="India">India</option>
+<option value="USA">USA</option>
+<option value="UK">UK</option>
+<option value="Germany">Germany</option>
+<option value="Brazil">Brazil</option>
+<option value="Russia">Russia</option>
+</select>

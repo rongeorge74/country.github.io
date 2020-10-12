@@ -1,0 +1,13 @@
+<label for="state">Select a State : </label><br>
+<select id="state" name="State">
+	<option value="Bayern">Bayern</option>
+	<option value="Berlin">Berlin</option>
+	<option value="Brandenburg">Brandenburg</option>
+	<option value="Bremen">Bremen</option>
+	<option value="Hamburg">Hamburg</option>
+	<option value="Hesse">Hesse</option>
+	<option value="Saarland">Saarland</option>
+	<option value="Saxony">Saxony</option>
+	<option value="Saxony-Anhalt">Saxony-Anhalt</option>
+	<option value="Thuringia">Thuringia</option>
+</select>

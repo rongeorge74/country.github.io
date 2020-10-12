@@ -1,0 +1,13 @@
+<label for="state">Select a State : </label><br>
+<select id="state" name="State">
+	<option value="Adygea">Adygea</option>
+	<option value="Altai">Altai</option>
+	<option value="Bashkortostan">Bashkortostan</option>
+	<option value="Buryatia">Buryatia</option>
+	<option value="Chechen">Chechen</option>
+	<option value="Chuvash">Chuvash</option>
+	<option value="Crimea">Crimea</option>
+	<option value="Dagestan">Dagestan</option>
+	<option value="Ingushetia">Ingushetia</option>
+	<option value="Kalmykia">Kalmykia</option>
+</select>

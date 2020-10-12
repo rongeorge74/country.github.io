@@ -1,0 +1,13 @@
+<label for="state">Select a State : </label><br>
+<select id="state" name="State">
+	<option value="Alabama">Alabama</option>
+	<option value="Alaska">Alaska</option>
+	<option value="Arizona">Arizona</option>
+	<option value="California">California</option>
+	<option value="Colorado">Colorado</option>
+	<option value="Florida">Florida</option>
+	<option value="Hawaii">Hawaii</option>
+	<option value="Kansas">Kansas</option>
+	<option value="Michigan">Michigan</option>
+	<option value="New York">New York</option>
+</select>

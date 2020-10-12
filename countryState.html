@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Country & State</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+
+		$(document).ready(function()
+		{
+			$("#divCountry").load("countries.txt");
+			$("#divState").load("India.txt");
+
+			$("#divCountry").change(function()
+			{
+				var cname = $("#country").val();
+				var fname = cname + ".txt";
+				$("#divState").load(fname);
+				$("#result").fadeOut();
+			})
+
+			$("#divState").change(function()
+			{
+				$("#result").fadeOut();
+			})
+
+			$("button").click(function()
+			{
+				var cname = $("#country").val();
+				var sname = $("#state").val();
+				$("#spCountry").text(cname);
+				$("#spState").text(sname);
+				$("#result").fadeIn();
+			})
+
+		})
+
+
+
+	</script>
+
+	<style type="text/css">
+		#result
+		{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+<h1>Country & States</h1><hr><br>
+<form>
+	<div id="divCountry"></div><br><hr><br>
+	<div id="divState"></div><br><hr><br>
+</form>
+<button>Submit</button>
+<div id="result">
+	<p>Country : <span id="spCountry"></span></p>	
+	<p>State : <span id="spState"></span></p>	
+</div>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<label for="state">Select a State : </label><br>
+<select id="state" name="State">
+	<option value="Scotland">Scotland</option>
+	<option value="Northern Ireland">Northern Ireland</option>
+	<option value="Wales">Wales</option>
+	<option value="Yorkshire">Yorkshire</option>
+	<option value="North East">North East</option>
+	<option value="North West">North West</option>
+	<option value="South East">South East</option>
+	<option value="South Wast">South Wast</option>
+	<option value="East of England">East of England</option>
+	<option value="Greater London">Greater London</option>
+</select>

@@ -1,0 +1,13 @@
+<label for="state">Select a State : </label><br>
+<select id="state" name="State">
+	<option value="Acre">Acre</option>
+	<option value="Alagoas">Alagoas</option>
+	<option value="Amapa">Amapa</option>
+	<option value="Amazonas">Amazonas</option>
+	<option value="Bahia">Bahia</option>
+	<option value="Goias">Goias</option>
+	<option value="Para">Para</option>
+	<option value="Rio de Janeiro">Rio de Janeiro</option>
+	<option value="Sao Paulo">Sao Paulo</option>
+	<option value="Tocantins">Tocantins</option>
+</select>
